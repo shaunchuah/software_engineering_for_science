@@ -30,7 +30,7 @@ theme:
     - content.tabs.link
 nav:
   - Home: 
-    - "Welcome": home/index.md
+    - "Welcome": index.md
     - "Initial Setup": home/initial-setup.md
   - The Terminal:
     - "Introduction to the Terminal": terminal/introduction.md
@@ -46,26 +46,26 @@ nav:
     - "Section Summary": python-setup/summary.md
   - Python:
     - "Introduction to Python": python/introduction.md
-    - "Basic Syntax": python/basic-syntax.md
-    - "Data Structures": python/data-structures.md
-    - "Control Structures": python/control-structures.md
-    - "Functions": python/functions.md
-    - "Modules": python/modules.md
-    - "Classes": python/classes.md
-    - "Exceptions": python/exceptions.md
-    - "Testing": python/testing.md
-    - "Documentation": python/documentation.md
-    - "Packaging": python/packaging.md
-  - Version Control with Git:
-    - "Introduction": git/introduction.md
-    - "Basic Commands": git/basic-commands.md
-    - "Branching": git/branching.md
-    - "Merging": git/merging.md
-    - "Rebasing": git/rebasing.md
-    - "Stashing": git/stashing.md
-    - "Remotes": git/remotes.md
-    - "Submodules": git/submodules.md
-    - "Hooks": git/hooks.md
+    # - "Basic Syntax": python/basic-syntax.md
+    # - "Data Structures": python/data-structures.md
+    # - "Control Structures": python/control-structures.md
+    # - "Functions": python/functions.md
+    # - "Modules": python/modules.md
+    # - "Classes": python/classes.md
+    # - "Exceptions": python/exceptions.md
+    # - "Testing": python/testing.md
+    # - "Documentation": python/documentation.md
+    # - "Packaging": python/packaging.md
+  # - Version Control with Git:
+  #   - "Introduction": git/introduction.md
+  #   - "Basic Commands": git/basic-commands.md
+  #   - "Branching": git/branching.md
+  #   - "Merging": git/merging.md
+  #   - "Rebasing": git/rebasing.md
+  #   - "Stashing": git/stashing.md
+  #   - "Remotes": git/remotes.md
+  #   - "Submodules": git/submodules.md
+  #   - "Hooks": git/hooks.md
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
