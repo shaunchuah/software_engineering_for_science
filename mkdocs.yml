@@ -1,0 +1,80 @@
+site_name: Software Engineering for Biological Science (Zero to Hero)
+theme:
+  name: material
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  features:
+    - navigation.sections
+    - search.suggest
+    - navigation.instant
+    - navigation.instant.progress
+    - content.code.copy
+    - navigation.tabs
+    - navigation.footer
+    - content.tabs.link
+nav:
+  - Home: 
+    - "Welcome": home/index.md
+    - "Initial Setup": home/initial-setup.md
+  - The Terminal:
+    - "Introduction to the Terminal": terminal/introduction.md
+    - "The Linux File System": terminal/linux-file-system.md
+    - "Basic Commands": terminal/basic-commands.md
+    - "Linux Permissions": terminal/linux-permissions.md
+    - "Section Summary": terminal/summary.md
+  - Python Setup:
+    - "Installing Python": python-setup/introduction.md
+    - "Software Versioning": python-setup/software-versioning.md
+    - "Virtual Environments": python-setup/virtual-environments.md
+    - "Installing Packages": python-setup/installing-packages.md
+    - "Section Summary": python-setup/summary.md
+  - Python:
+    - "Introduction to Python": python/introduction.md
+    - "Basic Syntax": python/basic-syntax.md
+    - "Data Structures": python/data-structures.md
+    - "Control Structures": python/control-structures.md
+    - "Functions": python/functions.md
+    - "Modules": python/modules.md
+    - "Classes": python/classes.md
+    - "Exceptions": python/exceptions.md
+    - "Testing": python/testing.md
+    - "Documentation": python/documentation.md
+    - "Packaging": python/packaging.md
+  - Version Control with Git:
+    - "Introduction": git/introduction.md
+    - "Basic Commands": git/basic-commands.md
+    - "Branching": git/branching.md
+    - "Merging": git/merging.md
+    - "Rebasing": git/rebasing.md
+    - "Stashing": git/stashing.md
+    - "Remotes": git/remotes.md
+    - "Submodules": git/submodules.md
+    - "Hooks": git/hooks.md
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      use_pygments: true
+      auto_title: true
+      linenums: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
