@@ -27,16 +27,9 @@ While both R and Python offer unique advantages, proficiency in both languages i
 - Existing Coverage: Many bioinformatics courses already cover R.
 - Support Availability: Python is well-supported by tools like ChatGPT/LLMs due to the abundance of Python code available online.
 
-## Course Content
+## Feedback
 
-1. Introduction to the Terminal
-2. Setting Up Your Python Development Environment
-3. Python Dependency Management
-4. Version Control with Git/GitHub
-5. Jupyter Notebooks
-6. Web APIs and Resources
-7. Containerisation with Docker
-8. Orchestration heavy computational pipelines with NextFlow
+One of the difficulties in creating material for beginners is the curse of knowledge - the inability to remember what it was like to not know something. I would appreciate any feedback on the course material, especially if you are a beginner and find something difficult to understand or there is a gap in the explanations. Let me know and I will improve the material based on your feedback.
 
 ## Course Author
 
