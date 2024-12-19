@@ -1,10 +1,10 @@
 # Introduction to Version Control
 
+<iframe style="width:100%; aspect-ratio:16/9;" src="https://www.youtube.com/embed/hwP7WQkmECE?si=fHrCHbBEcatezPGS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## What is Version Control?
 
 Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later. It allows you to revert files back to a previous state, revert the entire project back to a previous state, compare changes over time, see who last modified something that might be causing a problem, who introduced an issue and when, and more.
-
-Version control is a must-have for any software project, and it is especially useful when collaborating with others. It is also useful for solo projects as it allows you to keep track of changes and revert back to a previous state if needed.
 
 From the scientific perspective, version control is essential for reproducibility. It allows you to track changes to your code and data, and it is a key component of the FAIR principles (Findable, Accessible, Interoperable, Reusable).
 

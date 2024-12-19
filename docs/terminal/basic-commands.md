@@ -132,3 +132,18 @@ You can also use `Ctrl + L` to clear the terminal.
 ### Previous commands
 
 Use the up and down arrow keys to navigate through previous commands.
+
+### Manual pages
+
+Use the `man` command to view the manual pages for a command.
+
+=== "MacOS/Linux"
+    ```bash
+    man ls # View the manual page for the ls command
+    ```
+=== "Windows"
+    Windows does not have a built-in manual page viewer. You can use the `/?` option with commands to view help.
+
+    ```bash
+    dir /? # View help for the dir command
+    ```

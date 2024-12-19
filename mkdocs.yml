@@ -49,13 +49,29 @@ nav:
       - "Software Versioning": python-setup/software-versioning.md
       - "Virtual Environments": python-setup/virtual-environments.md
       - "Installing Packages": python-setup/installing-packages.md
+      - "Setting Up VSCode": python-setup/setting-up-vscode.md
       - "Section Summary": python-setup/summary.md
-  - Version Control:
+  - Python:
+      - "Introduction": python/introduction.md
+      - "Jupyter Notebooks": python/jupyter-notebooks.md
+      - "Data Types": python/data-types.md
+      - "Control Flow": python/control-flow.md
+      - "Functions": python/functions.md
+      - "Modules": python/modules.md
+      - "Section Summary": python/summary.md
+  - Git and GitHub:
       - "Introduction": git/introduction.md
       - "Basic Commands": git/basic-commands.md
       - "GitHub": git/github.md
       - "Section Summary": git/summary.md
       - "Cheat Sheet": git/cheat-sheet.md
+  - The Cloud:
+      - "Introduction": cloud/introduction.md
+      - "The Internet": cloud/the-internet.md
+      - "APIs": cloud/apis.md
+      - "SSH": cloud/ssh.md
+      - "Your First Server": cloud/your-first-server.md
+      - "Section Summary": cloud/summary.md
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -68,3 +84,18 @@ markdown_extensions:
       alternate_style: true
   - admonition
   - pymdownx.details
+plugins:
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+      auto_caption: false
+      caption_position: bottom
+      background: none
+      shadow: false
+      manual: false

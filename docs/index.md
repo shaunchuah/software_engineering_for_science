@@ -18,6 +18,8 @@ This course will also cover the basics of cloud computing and how to run your co
 
 ## Why Focus on Python?
 
+<iframe style="width:100%; aspect-ratio: 16/9;" src="https://www.youtube.com/embed/x7X9w_GIm1s?si=gShDYPp7jLF6T_aC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 While both R and Python offer unique advantages, proficiency in both languages is beneficial. However, this course will focus on Python for the following reasons:
 
 - Extensive Ecosystem: Python has a robust ecosystem of machine learning and AI software packages.
