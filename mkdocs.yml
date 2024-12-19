@@ -99,3 +99,7 @@ plugins:
       background: none
       shadow: false
       manual: false
+extra:
+  analytics:
+    provider: google
+    property: G-SJGY9QTENQ
