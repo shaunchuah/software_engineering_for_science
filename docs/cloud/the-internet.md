@@ -4,7 +4,14 @@ Before we proceed any further, it would be helpful to revisit the basics of the 
 
 ## What is the Internet?
 
-The internet is a global network of computers that are connected to each other. It allows computers to communicate with each other and share information. The internet is made up of a collection of networks that are connected using a set of standard protocols.
+The internet is a global network of computers that are connected to each other. It allows computers to communicate with each other and share information. There are 4 key aspects to understanding how the internet actually works:
+
+1. The TCP/IP Protocol
+2. The HTTP Protocol
+3. DNS (Domain Name System)
+4. URLs
+
+We will build from the ground up, starting with the actual cables that connect the world, all the way to the URLs that you type into your browser.
 
 ## The TCP/IP Protocol
 
@@ -48,19 +55,6 @@ Also known as the Network Interface Layer, it encompasses the protocols and hard
 4. Link Layer: The IP packets are framed into link-layer frames, which include MAC addresses. These frames are transmitted over the physical network media.
 5. Receiving End: At the destination, the process reverses. The link layer frames are unpacked to retrieve the IP packets, which are then passed to the transport layer. The transport layer reassembles the segments and hands the data off to the application layer.
 
-## What is a URL?
-
-A URL (Uniform Resource Locator) is an address used to access resources on the internet. It consists of several parts:
-
-1. Scheme: Indicates the protocol (e.g., http, https).
-2. Host: Specifies the domain name or IP address (e.g., <www.example.com>).
-3. Port (optional): Defines the port number (e.g., :8080).
-4. Path: Shows the location of the resource on the server (e.g., /docs/search).
-5. Query (optional): Contains parameters for searching or filtering (e.g., ?q=test).
-6. Fragment (optional): Points to a specific section within the resource (e.g., #part2).
-
-URLs are essential for uniquely identifying and retrieving resources on the web.
-
 ## The HTTP Protocol
 
 HTTP (Hypertext Transfer Protocol) is an application-layer protocol used primarily for transmitting hypermedia documents, such as HTML. It is the foundation of any data exchange on the Web and is a protocol used by web browsers and web servers to communicate.
@@ -103,3 +97,38 @@ HTTP (Hypertext Transfer Protocol) is an application-layer protocol used primari
 3. Server Sends Response: After processing the request, the server sends an HTTP response back to the client. The response includes a status line (HTTP version, status code, reason phrase), headers, and possibly a body (e.g., the requested web page).
 
 4. Client Receives and Processes Response: The client receives the response and processes it accordingly. For example, a web browser might render the HTML content received from the server.
+
+## DNS (Domain Name System)
+
+The Domain Name System (DNS) is an essential component of the internet infrastructure that translates human-readable domain names (like <www.google.com>) into IP addresses (like 192.0.2.1) that computers use to identify each other on the network. This translation process is often compared to a phone book, where you look up a person's name to find their phone number.
+
+### DNS Records
+
+DNS uses various types of records to perform its functions, including:
+
+- A Record: Maps a domain name to an IPv4 address.
+- AAAA Record: Maps a domain name to an IPv6 address.
+- CNAME Record: Maps a domain name to another domain name.
+- MX Record: Specifies mail servers for email services.
+- TXT Record: Contains text information for various purposes, often for verification.
+
+### Domain Names
+
+You can buy a domain name from a registrar and set up DNS records to point to your servers.
+
+## What is a URL?
+
+A URL (Uniform Resource Locator) is an address used to access resources on the internet. It consists of several parts:
+
+1. Scheme: Indicates the protocol (e.g., http, https).
+2. Host: Specifies the domain name or IP address (e.g., <www.example.com>).
+3. Port (optional): Defines the port number (e.g., :8080).
+4. Path: Shows the location of the resource on the server (e.g., /docs/search).
+5. Query (optional): Contains parameters for searching or filtering (e.g., ?q=test).
+6. Fragment (optional): Points to a specific section within the resource (e.g., #part2).
+
+URLs are essential for uniquely identifying and retrieving resources on the web.
+
+## Conclusion
+
+Understanding the basics of the internet, including the TCP/IP protocol, HTTP protocol, DNS, and URLs, is crucial for anyone working with web technologies. These foundational concepts form the backbone of how data is transmitted, accessed, and processed on the internet. By grasping these concepts, you'll be better equipped to troubleshoot problems along the way.

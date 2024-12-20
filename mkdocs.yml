@@ -69,9 +69,12 @@ nav:
       - "Introduction": cloud/introduction.md
       - "The Internet": cloud/the-internet.md
       - "APIs": cloud/apis.md
-      - "SSH": cloud/ssh.md
+      - "Secure Shell (SSH)": cloud/ssh.md
       - "Your First Server": cloud/your-first-server.md
+      - "VS Code Remote": cloud/vscode-remote.md
       - "Section Summary": cloud/summary.md
+  - Machine Learning:
+      - "Introduction": machine-learning/introduction.md
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
