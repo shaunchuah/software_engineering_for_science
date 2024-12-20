@@ -1,20 +1,30 @@
-# Welcome to Software Engineering for Biological Science
+# Software Engineering for Biological Science (Zero to Hero)
 
-This course is designed for individuals with zero coding experience and provides a comprehensive introduction to key software engineering topics relevant to scientific workflows. It is designed to complement existing bioinformatics courses which have a focus on processing biological datasets, for example using R and Seurat.
+!!! quote
+    A journey of a thousand miles begins with a single step.
 
-This course will cover the basics needed to start exploring machine learning techniques and applying it to the output of biological datasets that have been processed through bioinformatics pipelines.
+    千里之行，始于足下。
 
-This course will also cover the basics of cloud computing and how to run your code on large clusters of remote servers. This is important as the datasets we are working with are getting larger and larger and it is increasingly difficult to run these on your local machine.
+This course is designed for individuals with zero coding experience and provides a focused overview of key software engineering topics relevant to bioinformatics and machine-learning/AI workflows.
+
+It is designed to complement existing bioinformatics courses which have a focus on processing biological datasets, for example using R and Seurat for single-cell sequencing data.
+
+This course is a roadmap and not an exhaustive resource. It highlights the key topics that you need to be familiar with and points you towards further resources for deeper learning.
 
 ## Course Objectives
 
-- Introduction to key software engineering principles
-- Familiarise learners with the terminal and basic commands to control remote servers
-- Equip learners with the ability to collaborate with others
-- Understand how to achieve reproducibility in computational workflows
-- Learn how to manage dependencies and environments
-- Introduction to containerization
-- Equip learners with the ability to process big data in the cloud
+This course aims to equip you with a solid foundation in:
+
+1. Coding practices
+2. Basics of servers and cloud computing
+3. Containerization
+
+so that you can:
+
+1. Manage your code effectively
+2. Process large datasets
+3. Scale up your computational power
+4. Reproduce every step of your analysis
 
 ## Why Focus on Python?
 

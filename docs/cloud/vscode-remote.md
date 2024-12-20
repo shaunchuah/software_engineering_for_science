@@ -1,6 +1,6 @@
 # VSCode Remote SSH
 
-This section comes from the SSH section but is worth repeating here on its own as this is a technique for you to increase your computational power without buying a completely new machine. You can even provision machines with 192gb of ram on AWS - C5 series.
+This section is duplicated from the SSH section but is worth repeating here on its own as this is a technique for you to increase your computational power without buying a completely new machine. You can even provision machines with 192gb of ram on AWS - C5 series.
 
 ## Using VSCode to Connect to a Remote Server
 

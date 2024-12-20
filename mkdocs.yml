@@ -48,7 +48,7 @@ nav:
       - "Installing Python": python-setup/introduction.md
       - "Software Versioning": python-setup/software-versioning.md
       - "Virtual Environments": python-setup/virtual-environments.md
-      - "Installing Packages": python-setup/installing-packages.md
+      - "Python Packages": python-setup/installing-packages.md
       - "Setting Up VSCode": python-setup/setting-up-vscode.md
       - "Section Summary": python-setup/summary.md
   - Python:
@@ -71,7 +71,8 @@ nav:
       - "APIs": cloud/apis.md
       - "Secure Shell (SSH)": cloud/ssh.md
       - "Your First Server": cloud/your-first-server.md
-      - "VS Code Remote": cloud/vscode-remote.md
+      - "VSCode Remote": cloud/vscode-remote.md
+      - "Docker and Containerization": cloud/docker.md
       - "Section Summary": cloud/summary.md
   - Machine Learning:
       - "Introduction": machine-learning/introduction.md
