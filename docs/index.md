@@ -1,10 +1,5 @@
 # Software Engineering for Biological Science (Zero to Hero)
 
-!!! quote
-    A journey of a thousand miles begins with a single step.
-
-    千里之行，始于足下。
-
 This course is designed for individuals with zero coding experience and provides a focused overview of key software engineering topics relevant to bioinformatics and machine-learning/AI workflows.
 
 It is designed to complement existing bioinformatics courses which have a focus on processing biological datasets, for example using R and Seurat for single-cell sequencing data.
